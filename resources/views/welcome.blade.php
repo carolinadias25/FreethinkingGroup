@@ -36,7 +36,7 @@
 <!-- Masthead-->
 <header class="masthead">
     <div class="container">
-        <div class="masthead-subheading">Welcome To Our Community</div>
+        <div class="masthead-subheading">Welcome The Freethinking Group</div>
         <div class="masthead-heading text-uppercase">We are Freethinkers!</div>
     </div>
 </header>
@@ -48,20 +48,24 @@
             <h3 class="section-subheading text-muted">The Freethinking Group companies are based in offices in Edinburgh and Manchester.</h3>
         </div>
         <div class="row text-center">
-            <div class="col-md-4">
-                <h4 class="my-3">
-                    <img src="{{asset('/images/RoM_Full_Logo_RGB[7626].png')}}" alt="ROM logo" width="250" height="50"/>
+            <div class="col-lg-4">
+                <h4 class="my-3 mb-5 pb-3 mt-4">
+                    <a href="https://republicofmedia.co.uk/">
+                    <img src="{{asset('/images/RoM_Full_Logo_RGB[7626].png')}}" alt="ROM logo" width="300" height="25"/>
+                    </a>
                 </h4>
                 <p class="text-muted">We are a media agency, working clients to deliver media effectiveness and manage transformation. Born in the digital age, we are the fastest growing media agency in the UK.</p>
             </div>
-            <div class="col-md-4">
-                <h4 class="my-3">
+            <div class="col-lg-4">
+                <h4 class="my-3 mb-5">
+                    <a href="https://www.intelligence22.com/">
                     <img src="{{asset('/images/i22.jpg')}}" alt="I22 logo"  width="250" height="50"/>
+                    </a>
                 </h4>
                 <p class="text-muted">A data visualisation platform for marketeers. We built Intelligence 22 because of our own frustrations. We got tired of having to deal with software that only does half the job. So we did it properly.</p>
             </div>
-            <div class="col-md-4">
-                <h4 class="my-3">
+            <div class="col-lg-4">
+                <h4 class="my-3 mb-5">
                     <img src="{{asset('/images/Rommatic-Logo.png')}}" alt="Rommatic-logo" width="50" height="50"/>
                 </h4>
                 <p class="text-muted">A programmatic trading entity, allows employees of the operating companies to explore entrepreneurial initiatives, and launch new businesses with the support of an agile and creative parent company.</p>
