@@ -59,10 +59,10 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="form-group-textarea mb-md-0">
+                    <div class="form-group form-group-textarea mb-md-0">
                         <!-- Message input-->
 {{--                        <label class="text-light font-weight-bold" for="message"> Your Message </label>--}}
-                        <textarea class="form-control" id="msg" name="msg" type="text" placeholder="Your Message *" required></textarea>
+                        <textarea class="form-control" id="msg" name="msg" type="text" placeholder="Your Message *" required ></textarea>
                     </div>
                 </div>
             </div>

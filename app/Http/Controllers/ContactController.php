@@ -14,8 +14,8 @@ class ContactController extends Controller
     }
 
     Public function contactSubmit( Request $request){
-//        dd($request->input("message"));
-//        $name = $request->input("message");
+//        dd($request->input("msg"));
+//        $name = $request->input("name");
 //        $request->validate([
 //            'name' => 'required|min:4',
 //            'email' => 'required|email',
@@ -26,7 +26,7 @@ class ContactController extends Controller
             'name' => $request->input("name"),
             'email' => $request->input("email"),
             'phone'=> $request->input("phone"),
-            'msg' => $request->input("msg"),
+            'msg' => $request->input("msg")
         );
         Mail::send('emails.contactmail', $data, function ($mail) use ($request){
             $mail->from(env('MAIL_FROM_ADDRESS', 'The Freethinking Group'));
