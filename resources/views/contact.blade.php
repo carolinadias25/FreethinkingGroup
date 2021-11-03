@@ -36,33 +36,33 @@
                     <div class="form-group">
                         <!-- Name input-->
 {{--                        <label class="text-light font-weight-bold" for="name"> Your Name </label>--}}
-                        <input class="form-control @error('name') is-invalid @enderror" id="name" name="name" type="text" placeholder="Your Name *"  />
-                        @error('name')
-                        <div class="alert alert-danger">{{ $message }}</div>
-                        @enderror
+                        <input class="form-control" id="name" name="name" type="text" placeholder="Your Name *"  />
+{{--                        @error('name')--}}
+{{--                        <div class="alert alert-danger">{{ $message }}</div>--}}
+{{--                        @enderror--}}
                     </div>
                     <div class="form-group">
                         <!-- Email address input-->
 {{--                        <label class="text-light font-weight-bold" for="email"> Your Email </label>--}}
-                        <input class="form-control @error('email') is-invalid @enderror" id="email" name="email" type="email" placeholder="Your Email *"  />
-                        @error('email')
-                        <div class="alert alert-danger">{{ $message }}</div>
-                        @enderror
+                        <input class="form-control" id="email" name="email" type="email" placeholder="Your Email *" required/>
+{{--                        @error('email')--}}
+{{--                        <div class="alert alert-danger">{{ $message }}</div>--}}
+{{--                        @enderror--}}
                     </div>
                     <div class="form-group mb-md-0">
                         <!-- Phone number input-->
 {{--                        <label class="text-light font-weight-bold" for="phone"> Your Phone Number</label>--}}
-                        <input class="form-control @error('phone') is-invalid @enderror" id="phone" name="phone" type="tel" placeholder="Your Phone *" />
-                        @error('phone')
-                        <div class="alert alert-danger">{{ $message }}</div>
-                        @enderror
+                        <input class="form-control" id="phone" name="phone" type="tel" placeholder="Your Phone *" required/>
+{{--                        @error('phone')--}}
+{{--                        <div class="alert alert-danger">{{ $message }}</div>--}}
+{{--                        @enderror--}}
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="form-group form-group-textarea mb-md-0">
+                    <div class="form-group-textarea mb-md-0">
                         <!-- Message input-->
 {{--                        <label class="text-light font-weight-bold" for="message"> Your Message </label>--}}
-                        <textarea class="form-control " id="message" name="message" placeholder="Your Message *" required></textarea>
+                        <textarea class="form-control" id="msg" name="msg" type="text" placeholder="Your Message *" required></textarea>
                     </div>
                 </div>
             </div>
