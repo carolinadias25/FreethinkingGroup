@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+
 use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
@@ -32,5 +33,6 @@ class ContactController extends Controller
             $mail->to($request->input("email"))->subject('Contact Message');
         });
         return 'Message has been sent successfully';
+
     }
 }
