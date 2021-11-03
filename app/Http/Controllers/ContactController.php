@@ -22,6 +22,7 @@ class ContactController extends Controller
 //            'phone' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10',
 //            'message' => 'required|max:255'
 //        ]);
+
         $data = array(
             'name' => $request->input("name"),
             'email' => $request->input("email"),
@@ -32,7 +33,9 @@ class ContactController extends Controller
             $mail->from(env('MAIL_FROM_ADDRESS', 'The Freethinking Group'));
             $mail->to("carolina.f.dias@hotmail.com")->subject('Contact Message');
         });
-        return 'Message has been sent successfully';
+        toastr()->success('Your message has been sent successfully');
+
+        return back();
 
     }
 }

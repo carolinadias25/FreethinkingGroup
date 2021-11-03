@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="{{asset('css/styles.css')}}" rel="stylesheet" />
+    @toastr_css
 </head>
 <body id="page-top">
 <!-- Navigation-->
@@ -129,7 +130,7 @@
             </div>
             <div class="col-lg-4">
                 <h4 class="my-3 mb-5">
-                    <img src="{{asset('/images/Rommatic-Logo.png')}}" alt="Rommatic-logo" width="50" height="50"/>
+                    <img src="{{asset('/images/Rommatic.png')}}" alt="Rommatic-logo" width="200" height="27"/>
                 </h4>
                 <p class="text-muted">A programmatic trading entity, allows employees of the operating companies to explore entrepreneurial initiatives, and launch new businesses with the support of an agile and creative parent company.</p>
             </div>
@@ -157,5 +158,8 @@
 <script src="{{asset('https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')}}"></script>
 <!-- Core theme JS-->
 <script src="{{asset('js/scripts.js')}}"></script>
+@jquery
+@toastr_js
+@toastr_render
 </body>
 </html>

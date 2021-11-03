@@ -15,6 +15,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="{{asset('css/styles.css')}}" rel="stylesheet" />
+    <link href="toastr.css" rel="stylesheet"/>
+    @toastr_css
 </head>
 <section class="page-section" id="contact">
     <div class="container">
@@ -29,8 +31,16 @@
         <!-- To make this form functional, sign up at-->
         <!-- https://startbootstrap.com/solution/contact-forms-->
         <!-- to get an API token!-->
+        @if(Session::get('message_sent'))
+            <div class="alert alert-success" role="alert">
+                {{Session::get('message_sent')}}
+            </div>
+        @endif
         <form id="contactForm" action="/contact-us" method="POST">
             @csrf
+            <script>
+
+            </script>
             <div class="row align-items-stretch mb-5">
                 <div class="col-md-6">
                     <div class="form-group">
@@ -71,6 +81,9 @@
                     Send Message
                 </button>
             </div>
+            @jquery
+            @toastr_js
+            @toastr_render
         </form>
     </div>
 </section>
