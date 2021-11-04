@@ -18,6 +18,7 @@
     @toastr_css
 </head>
 <body id="page-top">
+{{--@include(public_path('css/styles.css'))--}}
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
@@ -28,8 +29,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                <li class="nav-item"><a class="nav-link" >About</a></li>
-                <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -114,27 +115,23 @@
         <div class="row text-center">
             <div class="col-lg-4">
                 <h4 class="my-3 mb-5 pb-3 mt-4">
-                    <a href="https://republicofmedia.co.uk/">
                     <img src="{{asset('/images/RoM_Full_Logo_RGB[7626].png')}}" alt="ROM logo" width="300" height="25"/>
-                    </a>
                 </h4>
-                <p class="text-muted">We are a media agency, working clients to deliver media effectiveness and manage transformation. Born in the digital age, we are the fastest growing media agency in the UK.</p>
+                <p class="text-muted">We are a media agency, working clients to deliver media effectiveness and manage transformation. Born in the digital age, we are the fastest growing media agency in the UK. Click
+                    <a href="https://republicofmedia.co.uk" styles="text-decoration:none;" title="https://republicofmedia.co.uk" target="_blank" >HERE </a>to find out more</p>
             </div>
             <div class="col-lg-4">
                 <h4 class="my-3 mb-5">
-                    <a href="https://www.intelligence22.com/">
                     <img src="{{asset('/images/i22.jpg')}}" alt="I22 logo"  width="250" height="50"/>
-                    </a>
                 </h4>
-                <p class="text-muted">A data visualisation platform for marketeers. We built Intelligence 22 because of our own frustrations. We got tired of having to deal with software that only does half the job. So we did it properly.</p>
+                <p class="text-muted">A data visualisation platform for marketeers. We built Intelligence 22 because of our own frustrations. We got tired of having to deal with software that only does half the job. Click
+                    <a href="https://www.intelligence22.com" styles="text-decoration:none;" title="https://intelligence22.com" target="_blank"> HERE </a> to find out more</p>
             </div>
             <div class="col-lg-4">
                 <h4 class="my-3 mb-5 pb-3">
-                    <a href="https://www.linkedin.com/company/rommatic/">
                     <img src="{{asset('/images/Rommatic.png')}}" alt="Rommatic-logo" width="200" height="27"/>
-                    </a>
                 </h4>
-                <p class="text-muted">A programmatic trading entity, allows employees of the operating companies to explore entrepreneurial initiatives, and launch new businesses with the support of an agile and creative parent company.</p>
+                <p class="text-muted">A programmatic trading entity, allows employees of the operating companies to explore entrepreneurial initiatives, and launch new businesses with the support company. Click  <a href="https://www.linkedin.com/company/rommatic/" styles="text-decoration:none;" title="https://www.linkedin.com/company/rommatic/" target="_blank"> HERE </a> to find out more</p>
             </div>
         </div>
     </div>

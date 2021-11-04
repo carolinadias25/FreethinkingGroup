@@ -236,11 +236,11 @@ sup {
 }
 
 a {
-    color: #ffc800;
+    color: #FF4500;
     text-decoration: underline;
 }
 a:hover {
-    color: #cca000;
+    color: #FF4500;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -7118,8 +7118,18 @@ textarea.form-control-lg {
 
 .mb-3 {
     margin-bottom: 1rem !important;
-}
 
+}
+/*.my-3:hover + .mb-5:hover + .pb-3:hover + .mt-4:hover img{*/
+/*    opacity: 0.5*/
+/*}*/
+
+.btn-link:hover {
+    opacity: 0.5
+}
+.btn-link {
+    opacity: 1
+}
 .mb-4 {
     margin-bottom: 1.5rem !important;
 }
@@ -11091,7 +11101,8 @@ p {
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: black;
+    background-color: #A9A9A9;
+    opacity: 95%;
 }
 #mainNav .navbar-toggler {
     padding: 0.75rem;
@@ -11259,7 +11270,7 @@ header.masthead .masthead-heading {
     color: white;
     border: 7px solid #e9ecef;
     border-radius: 100%;
-    background-color: #FF4500;
+    background-color: #A9A9A9;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
     font-size: 10px;
