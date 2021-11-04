@@ -21,14 +21,14 @@
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand" href="#page-top"><img class="img-fluid h-25"  src="{{asset('assets/img/navbar-logo2.png')}}" alt="Logo" /></a>
+        <a class="navbar-brand" href="#page-top"><img class="img-fluid h-25"  src="{{asset('assets/img/navbar-logoB.png')}}" alt="Logo" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fas fa-bars ms-1"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" >About</a></li>
                 <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
             </ul>
         </div>
@@ -46,47 +46,47 @@
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase">About Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">Here's bit of our story.</h3>
         </div>
         <ul class="timeline">
             <li>
                 <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{asset('assets/img/about/1.png')}}" alt="..." /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4>2009-2011</h4>
-                        <h4 class="subheading">Our Humble Beginnings</h4>
+                        <h4>February 2012</h4>
+                        <h4 class="subheading">How it started</h4>
                     </div>
-                    <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                    <div class="timeline-body"><p class="text-muted">Our company started when Republic of Media was born, working with clients to deliver media effectiveness and manage transformation. Born in the digital age, we are the fastest growing media agency in the UK. From offices in Manchester and Edinburgh we build relationships rather than silos.</p></div>
                 </div>
             </li>
             <li class="timeline-inverted">
                 <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{asset('assets/img/about/2.png')}}" alt="..." /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4>March 2011</h4>
-                        <h4 class="subheading">An Agency is Born</h4>
+                        <h4>May 2015</h4>
+                        <h4 class="subheading">Creation of Rommatic</h4>
                     </div>
-                    <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                    <div class="timeline-body"><p class="text-muted">Rommatic is a programmatic trading entity, under which Republic of Media and Intelligence22 also operate. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
                 </div>
             </li>
             <li>
                 <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{asset('assets/img/about/3.png')}}" alt="..." /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4>December 2015</h4>
-                        <h4 class="subheading">Transition to Full Service</h4>
+                        <h4>May 2015</h4>
+                        <h4 class="subheading">Together as a group</h4>
                     </div>
-                    <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                    <div class="timeline-body"><p class="text-muted">The Freethinking Group exists to work with the individual company Boards and task them with growth objectives. It also allows current and future employees of any of our operating companies to explore entrepreneurial initiatives, pursue career interests across the group, and launch new businesses with the support of an agile and creative parent company.</p></div>
                 </div>
             </li>
             <li class="timeline-inverted">
                 <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{asset('assets/img/about/4.png')}}" alt="..." /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h4>July 2020</h4>
-                        <h4 class="subheading">Phase Two Expansion</h4>
+                        <h4>January 2020</h4>
+                        <h4 class="subheading">Creation of I22</h4>
                     </div>
-                    <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                    <div class="timeline-body"><p class="text-muted">A data visualisation platform for marketeers. We built Intelligence 22 because of our own frustrations. We got tired of having to deal with software that only does half the job. So we did it properly. Unlike other data services, we don't just gather and unify the vital data you need. We also provide you with live, automatic data visualisations.</p></div>
                 </div>
             </li>
             <li class="timeline-inverted">
@@ -129,8 +129,10 @@
                 <p class="text-muted">A data visualisation platform for marketeers. We built Intelligence 22 because of our own frustrations. We got tired of having to deal with software that only does half the job. So we did it properly.</p>
             </div>
             <div class="col-lg-4">
-                <h4 class="my-3 mb-5">
+                <h4 class="my-3 mb-5 pb-3">
+                    <a href="https://www.linkedin.com/company/rommatic/">
                     <img src="{{asset('/images/Rommatic.png')}}" alt="Rommatic-logo" width="200" height="27"/>
+                    </a>
                 </h4>
                 <p class="text-muted">A programmatic trading entity, allows employees of the operating companies to explore entrepreneurial initiatives, and launch new businesses with the support of an agile and creative parent company.</p>
             </div>

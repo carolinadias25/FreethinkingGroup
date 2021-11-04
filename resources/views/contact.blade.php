@@ -21,7 +21,7 @@
 <section class="page-section" id="contact">
     <div class="container">
         <div class="text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
+            <h2 class="section-heading text-uppercase">Get In Touch</h2>
             <h3 class="section-subheading text-muted">Don't be shy, say hello.</h3>
         </div>
         <!-- * * * * * * * * * * * * * * *-->
@@ -46,7 +46,7 @@
                     <div class="form-group">
                         <!-- Name input-->
 {{--                        <label class="text-light font-weight-bold" for="name"> Your Name </label>--}}
-                        <input class="form-control" id="name" name="name" type="text" placeholder="Your Name *"  />
+                        <input class="form-control" id="name" name="name" type="text" placeholder="Your Name *" required/>
 {{--                        @error('name')--}}
 {{--                        <div class="alert alert-danger">{{ $message }}</div>--}}
 {{--                        @enderror--}}
