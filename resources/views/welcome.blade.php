@@ -7,7 +7,7 @@
     <meta name="author" content="" />
     <title>The Freethinking Group</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="{{asset('assets/favicon.ico')}}" />
+    <link rel="icon" type="image/x-icon" href="{{asset('assets/1.png')}}" />
     <!-- Font Awesome icons (free version)-->
     <script src="{{asset('https://use.fontawesome.com/releases/v5.15.4/js/all.js')}}" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -18,7 +18,6 @@
     @toastr_css
 </head>
 <body id="page-top">
-{{--@include(public_path('css/styles.css'))--}}
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
