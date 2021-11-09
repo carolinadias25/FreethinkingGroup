@@ -62,6 +62,9 @@
     "prefer-stable": true,
     "post-install-cmd": [
         "php artisan clear-compiled",
+        "composer install",
+        "php artisan cache:clear",
+        "npm install",
         "chmod -R 777 public/"
     ]
 }
