@@ -114,14 +114,14 @@
         <div class="row text-center">
             <div class="col-lg-4">
                 <h4 class="my-3 mb-5 pb-3 mt-4">
-                    <img src="https://228291092436-website-images-prod.s3.eu-west-1.amazonaws.com/freethinkinggroup/RommaticWide.png" alt="ROM logo" width="300" height="25"/>
+                    <img src="https://228291092436-website-images-prod.s3.eu-west-1.amazonaws.com/freethinkinggroup/RoM_Full_Logo_RGB%5B7626%5D.png" alt="ROM logo" width="300" height="25"/>
                 </h4>
                 <p class="text-muted">We are a media agency, working clients to deliver media effectiveness and manage transformation. Born in the digital age, we are the fastest growing media agency in the UK. Click
                     <a href="https://republicofmedia.co.uk" styles="text-decoration:none;" title="https://republicofmedia.co.uk" target="_blank" >HERE </a>to find out more</p>
             </div>
             <div class="col-lg-4">
                 <h4 class="my-3 mb-5">
-                    <img src="{{asset('/images/i22.jpg')}}" alt="I22 logo"  width="250" height="50"/>
+                    <img src="https://228291092436-website-images-prod.s3.eu-west-1.amazonaws.com/freethinkinggroup/I22Wide.png" alt="I22-extended-logo"  width="250" height="50"/>
                 </h4>
                 <p class="text-muted">A data visualisation platform for marketeers. We built Intelligence 22 because of our own frustrations. We got tired of having to deal with software that only does half the job. Click
                     <a href="https://www.intelligence22.com" styles="text-decoration:none;" title="https://intelligence22.com" target="_blank"> HERE </a> to find out more</p>
