@@ -15,7 +15,7 @@ return [
 |
 */
 
-//    'driver' => env('MAIL_DRIVER', 'smtp'),
+    'driver' => env('MAIL_DRIVER', 'smtp'),
 
     /*
     |--------------------------------------------------------------------------
@@ -50,6 +50,7 @@ return [
 
     'mailers' => [
         'smtp' => [
+            'driver' => env('MAIL_DRIVER', 'smtp'),
             'transport' => 'smtp',
             'host' => env('MAIL_HOST', 'email-smtp.eu-west-1.amazonaws.com'),
             'port' => env('MAIL_PORT', 587),
