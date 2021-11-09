@@ -1,9 +1,5 @@
 # The Freethinking Group - now live [here]() ✈️
 
-An app to help you travel internationally, covid secure. Built using React, Firebase and external APIs, to provide users with all the relevant COVID-19 information for each country before travel.
-
----
-
 ## Technologies
 
 - Php
