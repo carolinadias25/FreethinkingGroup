@@ -1,4 +1,4 @@
-# The Freethinking Group - now live [here]() ✈️
+# The Freethinking Group - now live [here]()
 
 ## Technologies
 
