@@ -10847,7 +10847,7 @@ header.masthead .masthead-heading {
 
 @media (min-width: 1200px) {
     header.masthead {
-        background-image: url("../assets/img/IMG_6602 (2).png");
+        background-image: url("https://228291092436-website-images-prod.s3.eu-west-1.amazonaws.com/freethinkinggroup/freethinkingGroupImage.png");
         background-repeat: no-repeat;
         background-attachment: inherit;
         background-position: center center;
@@ -11057,7 +11057,7 @@ header.masthead .masthead-heading {
 
 section#contact {
     background-color: #212529;
-    background-image: url("../assets/img/map-image.png");
+    background-image: url("https://228291092436-website-images-prod.s3.eu-west-1.amazonaws.com/freethinkinggroup/worldImage.png");
     background-repeat: no-repeat;
     background-position: center;
 }

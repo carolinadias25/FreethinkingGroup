@@ -21,7 +21,7 @@
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand" href="#page-top"><img class="img-fluid h-25"  src="{{asset('assets/img/navbar-logoB.png')}}" alt="Logo" /></a>
+        <a class="navbar-brand" href="#page-top"><img class="img-fluid h-25"  src="https://228291092436-website-images-prod.s3.eu-west-1.amazonaws.com/freethinkinggroup/TFGClear.png" alt="TFG-nav-Logo" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fas fa-bars ms-1"></i>
@@ -50,7 +50,7 @@
         </div>
         <ul class="timeline">
             <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{asset('assets/img/about/1.png')}}" alt="..." /></div>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://228291092436-website-images-prod.s3.eu-west-1.amazonaws.com/freethinkinggroup/ROM.png" alt="ROM-logo" /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4>February 2012</h4>
@@ -60,7 +60,7 @@
                 </div>
             </li>
             <li class="timeline-inverted">
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{asset('assets/img/about/2.png')}}" alt="..." /></div>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://228291092436-website-images-prod.s3.eu-west-1.amazonaws.com/freethinkinggroup/RimageGrey.png" alt="Rommatic-logo" /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4>May 2015</h4>
@@ -70,7 +70,7 @@
                 </div>
             </li>
             <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{asset('assets/img/about/3.png')}}" alt="..." /></div>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://228291092436-website-images-prod.s3.eu-west-1.amazonaws.com/freethinkinggroup/TFGB%26W.png" alt="TFG-logo" /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4>May 2015</h4>
@@ -80,7 +80,7 @@
                 </div>
             </li>
             <li class="timeline-inverted">
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="{{asset('assets/img/about/4.png')}}" alt="..." /></div>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://228291092436-website-images-prod.s3.eu-west-1.amazonaws.com/freethinkinggroup/I22Logo.png" alt="I22-logo" /></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <h4>January 2020</h4>
@@ -114,7 +114,7 @@
         <div class="row text-center">
             <div class="col-lg-4">
                 <h4 class="my-3 mb-5 pb-3 mt-4">
-                    <img src="{{asset('/images/RoM_Full_Logo_RGB[7626].png')}}" alt="ROM logo" width="300" height="25"/>
+                    <img src="https://228291092436-website-images-prod.s3.eu-west-1.amazonaws.com/freethinkinggroup/RommaticWide.png" alt="ROM logo" width="300" height="25"/>
                 </h4>
                 <p class="text-muted">We are a media agency, working clients to deliver media effectiveness and manage transformation. Born in the digital age, we are the fastest growing media agency in the UK. Click
                     <a href="https://republicofmedia.co.uk" styles="text-decoration:none;" title="https://republicofmedia.co.uk" target="_blank" >HERE </a>to find out more</p>
@@ -128,7 +128,7 @@
             </div>
             <div class="col-lg-4">
                 <h4 class="my-3 mb-5 pb-3">
-                    <img src="{{asset('/images/Rommatic.png')}}" alt="Rommatic-logo" width="200" height="27"/>
+                    <img src="https://228291092436-website-images-prod.s3.eu-west-1.amazonaws.com/freethinkinggroup/RommaticWide.png" alt="Rommatic-extended-logo" width="200" height="27"/>
                 </h4>
                 <p class="text-muted">A programmatic trading entity, allows employees of the operating companies to explore entrepreneurial initiatives, and launch new businesses with the support company. Click  <a href="https://www.linkedin.com/company/rommatic/" styles="text-decoration:none;" title="https://www.linkedin.com/company/rommatic/" target="_blank"> HERE </a> to find out more</p>
             </div>
