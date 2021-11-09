@@ -59,5 +59,13 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "post-install-cmd": [
+        "php artisan clear-compiled",
+        "composer install",
+        "php artisan cache:clear",
+        "php artisan config:cache",
+        "npm install",
+        "chmod -R 777 public/"
+    ]
 }
