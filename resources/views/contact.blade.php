@@ -37,7 +37,7 @@
                 {{Session::get('message_sent')}}
             </div>
         @endif
-        <form id="contactForm" action="/contact-us" method="POST">
+        <form id="contactForm" action="{{route('contact.send')}}" method="POST">
             @csrf
             <script>
 
