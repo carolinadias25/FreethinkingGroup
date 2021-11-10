@@ -1,5 +1,7 @@
 # The Freethinking Group - now live [here](http://thefreethinkingroup.herokuapp.com/)
 
+
+
 ## Technologies
 
 - Php
@@ -7,7 +9,12 @@
 - CSS
 - HTML
 
+
+
 ## Previews:
+
+
+
 
 ### Page Head:
 
