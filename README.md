@@ -7,8 +7,6 @@
 - CSS
 - HTML
 
----
-
 ## Previews:
 
 ### Page Head:
