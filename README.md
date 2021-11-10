@@ -1,11 +1,11 @@
-# The Freethinking Group - now live [here]()
+# The Freethinking Group - now live [here](http://thefreethinkingroup.herokuapp.com/)
 
 ## Technologies
 
 - Php
 - Laravel
 - CSS
-- Bootstrap
+- HTML
 
 ---
 
