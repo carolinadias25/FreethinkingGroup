@@ -2,20 +2,6 @@
 
 return [
     /*
-|--------------------------------------------------------------------------
-| Mail Driver
-|--------------------------------------------------------------------------
-|
-| Laravel supports both SMTP and PHP's "mail" function as drivers for the
-| sending of e-mail. You may specify which one you're using throughout
-| your application here. By default, Laravel is setup for SMTP mail.
-|
-| Supported: "smtp", "sendmail", "mailgun", "ses",
-|            "postmark", "log", "array"
-|
-*/
-
-    'driver' => env('MAIL_DRIVER', 'smtp'),
 
     /*
     |--------------------------------------------------------------------------
@@ -50,7 +36,6 @@ return [
 
     'mailers' => [
         'smtp' => [
-            'driver' => env('MAIL_DRIVER', 'smtp'),
             'transport' => 'smtp',
             'host' => env('MAIL_HOST', 'email-smtp.eu-west-1.amazonaws.com'),
             'port' => env('MAIL_PORT', 587),
