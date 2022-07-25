@@ -5,6 +5,7 @@
 ## Technologies
 
 - Php
+- Bootstrap
 - Laravel
 - CSS
 - HTML
